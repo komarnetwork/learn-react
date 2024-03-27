@@ -10,6 +10,12 @@ function FavoriteColor() {
     color: 'red',
   })
 
+  const updateColor = () => {
+    setCar((previosState) => {
+      return { ...previosState, color: 'blue' }
+    })
+  }
+
   return (
     <>
       <h1>My favorite color is {color}!</h1>
@@ -22,6 +28,10 @@ function FavoriteColor() {
       <p>
         It is a {car.color} {car.model} {car.year}
       </p>
+
+      <button type='button' onClick={updateColor}>
+        Ubah Warna
+      </button>
     </>
   )
 }
