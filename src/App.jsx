@@ -19,6 +19,7 @@ import Layout from './pages/Layout'
 import Blogs from './pages/Blogs'
 import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
+import FavoriteColor from './components/FavoriteColor'
 // function MissedGoal() {
 //   return <h1>MISSED !</h1>
 // }
@@ -108,6 +109,8 @@ function App() {
               <Route path='*' element={<NoPage />} />
             </Route>
           </Routes>
+
+          <FavoriteColor />
         </div>
       </div>
     </>

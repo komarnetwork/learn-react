@@ -19,5 +19,6 @@ module.exports = {
     eqeqeq: 'off',
     'no-undef': ['error'],
     'react/prop-types': 'off',
+    'no-unused-vars': 'off',
   },
 }
