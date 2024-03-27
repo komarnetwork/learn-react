@@ -21,6 +21,7 @@ import Contact from './pages/Contact'
 import NoPage from './pages/NoPage'
 import FavoriteColor from './components/FavoriteColor'
 import Timers from './components/Timer'
+import Counter from './components/Counter'
 // function MissedGoal() {
 //   return <h1>MISSED !</h1>
 // }
@@ -113,6 +114,7 @@ function App() {
 
           <FavoriteColor />
           <Timers />
+          <Counter />
         </div>
       </div>
     </>
