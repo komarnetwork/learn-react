@@ -23,6 +23,8 @@ import FavoriteColor from './components/FavoriteColor'
 import Timers from './components/Timer'
 import Counter from './components/Counter'
 import MyForm from './components/Form'
+import TextArea from './components/Textarea'
+import DropDown from './components/DropDown'
 // function MissedGoal() {
 //   return <h1>MISSED !</h1>
 // }
@@ -117,6 +119,8 @@ function App() {
           <Timers />
           <Counter />
           <MyForm />
+          <TextArea />
+          <DropDown />
         </div>
       </div>
     </>
