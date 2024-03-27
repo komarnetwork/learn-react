@@ -20,11 +20,14 @@ function MadeGoal() {
 function Goal(props) {
   const isGoal = props.isGoal
 
-  if (isGoal) {
-    return <MadeGoal />
-  }
+  // if (isGoal) {
+  //   return <MadeGoal />
+  // }
 
-  return <MissedGoal />
+  // return <MissedGoal />
+
+  // Ternary Operation
+  return <>{isGoal ? <MadeGoal /> : <MissedGoal />}</>
 }
 
 const cars = ['Ford', 'BMW', 'Audi']
