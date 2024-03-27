@@ -5,41 +5,49 @@
 // } from '@tabler/icons-react'
 
 // import Garage from './components/Garage'
-import ListGarage from './components/ListGarage'
-import Product from './components/Product'
+// import ListGarage from './components/ListGarage'
+// import Product from './components/Product'
+// import Contact from './pages/Contact'
+// import NoPage from './pages/NoPage'
 
 // import Button from './components/Button'
 // import Card from './components/Card'
 
-function MissedGoal() {
-  return <h1>MISSED !</h1>
-}
-function MadeGoal() {
-  return <h1>GOAL !</h1>
-}
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Layout from './pages/Layout'
+import Blogs from './pages/Blogs'
+import Contact from './pages/Contact'
+import NoPage from './pages/NoPage'
+// function MissedGoal() {
+//   return <h1>MISSED !</h1>
+// }
+// function MadeGoal() {
+//   return <h1>GOAL !</h1>
+// }
 
-function Goal(props) {
-  const isGoal = props.isGoal
+// function Goal(props) {
+//   const isGoal = props.isGoal
 
-  // if (isGoal) {
-  //   return <MadeGoal />
-  // }
+//   // if (isGoal) {
+//   //   return <MadeGoal />
+//   // }
 
-  // return <MissedGoal />
+//   // return <MissedGoal />
 
-  // Ternary Operation
-  return <>{isGoal ? <MadeGoal /> : <MissedGoal />}</>
-}
+//   // Ternary Operation
+//   return <>{isGoal ? <MadeGoal /> : <MissedGoal />}</>
+// }
 
 // const cars = ['Ford', 'BMW', 'Audi']
 
 function App() {
-  const phoneData = [
-    { name: 'Iphone X', price: 10000000, discount: 50 },
-    { name: 'Oppo Find X', price: 14000000, discount: 50 },
-    { name: 'Redmi Note X', price: 12000000, discount: 50 },
-    { name: 'Vivo y19', price: 55000000, discount: 50 },
-  ]
+  // const phoneData = [
+  //   { name: 'Iphone X', price: 10000000, discount: 50 },
+  //   { name: 'Oppo Find X', price: 14000000, discount: 50 },
+  //   { name: 'Redmi Note X', price: 12000000, discount: 50 },
+  //   { name: 'Vivo y19', price: 55000000, discount: 50 },
+  // ]
 
   return (
     <>
@@ -74,22 +82,32 @@ function App() {
           </Card> */}
 
           {/* Display Data & Looping JSX  */}
-          {phoneData.map((phone, id) => (
+          {/* {phoneData.map((phone, id) => (
             <Product
               key={id}
               name={phone.name}
               price={phone.price}
               discount={phone.discount}
             ></Product>
-          ))}
+          ))} */}
 
           {/* If Statment */}
-          <Goal isGoal={false} />
+          {/* <Goal isGoal={false} /> */}
 
           {/* Logical && Operator */}
           {/* <Garage cars={cars} /> */}
 
-          <ListGarage />
+          {/* <ListGarage /> */}
+
+          {/* React Router */}
+          <Routes>
+            <Route path='/' element={<Layout />}>
+              <Route index path='/' element={<Home />} />
+              <Route path='/blogs' element={<Blogs />} />
+              <Route path='/Contact' element={<Contact />} />
+              <Route path='*' element={<NoPage />} />
+            </Route>
+          </Routes>
         </div>
       </div>
     </>
