@@ -4,7 +4,8 @@
 //   IconBrandGithub,
 // } from '@tabler/icons-react'
 
-import Garage from './components/Garage'
+// import Garage from './components/Garage'
+import ListGarage from './components/ListGarage'
 import Product from './components/Product'
 
 // import Button from './components/Button'
@@ -30,7 +31,7 @@ function Goal(props) {
   return <>{isGoal ? <MadeGoal /> : <MissedGoal />}</>
 }
 
-const cars = ['Ford', 'BMW', 'Audi']
+// const cars = ['Ford', 'BMW', 'Audi']
 
 function App() {
   const phoneData = [
@@ -86,7 +87,9 @@ function App() {
           <Goal isGoal={false} />
 
           {/* Logical && Operator */}
-          <Garage cars={cars} />
+          {/* <Garage cars={cars} /> */}
+
+          <ListGarage />
         </div>
       </div>
     </>
