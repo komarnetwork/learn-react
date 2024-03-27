@@ -9,6 +9,23 @@ import Product from './components/Product'
 // import Button from './components/Button'
 // import Card from './components/Card'
 
+function MissedGoal() {
+  return <h1>MISSED !</h1>
+}
+function MadeGoal() {
+  return <h1>GOAL !</h1>
+}
+
+function Goal(props) {
+  const isGoal = props.isGoal
+
+  if (isGoal) {
+    return <MadeGoal />
+  }
+
+  return <MissedGoal />
+}
+
 function App() {
   const phoneData = [
     { name: 'Iphone X', price: 10000000, discount: 50 },
@@ -18,7 +35,7 @@ function App() {
   ]
   return (
     <>
-      <div className='bg-slate-100 text-slate-800 tracking-tighter antialiased flex items-center justify-center min-h-screen'>
+      <div className='bg-slate-100 text-slate-800 tracking-tighter antialiased flex items-center justify-center min-h-screen text-center'>
         <div className='max-w-xl w-full'>
           {/* <Button onClick={() => console.log('register')} type='submit'>
             <IconBrandFacebook />
@@ -57,6 +74,9 @@ function App() {
               discount={phone.discount}
             ></Product>
           ))}
+
+          {/* If Statment */}
+          <Goal isGoal={false} />
         </div>
       </div>
     </>
