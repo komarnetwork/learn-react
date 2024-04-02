@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/portofolio/Header'
 import About from './components/portofolio/About'
 import $ from 'jquery'
+import Resume from './components/portofolio/Resume'
 
 class App extends React.Component {
   constructor(props) {
@@ -37,6 +38,7 @@ class App extends React.Component {
       <>
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
+        <Resume data={this.state.resumeData.resume} />
       </>
     )
   }

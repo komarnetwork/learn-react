@@ -67,12 +67,12 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillMessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "Universitas Indonesia",
-        "degree": "Bachelor degree of Computer Science",
-        "graduated": "June 2021",
+        "school": "University Indonesia",
+        "degree": "New students",
+        "graduated": "2024",
         "description": "I am joining gemastik competition"
       },
       {
@@ -98,28 +98,28 @@
     ],
     "skills": [
       {
-        "name": "Java",
-        "level": "90%"
-      },
-      {
-        "name": "Python",
-        "level": "70%"
-      },
-      {
         "name": "ReactJS",
-        "level": "85%"
+        "level": "75%"
       },
       {
         "name": "VueJS",
-        "level": "88%"
+        "level": "65%"
       },
       {
-        "name": "Kotlin",
-        "level": "95%"
+        "name": "Laravel",
+        "level": "90%"
       },
       {
         "name": "PHP",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
         "level": "60%"
+      },
+      {
+        "name": "Java",
+        "level": "50%"
       }
     ]
   },
