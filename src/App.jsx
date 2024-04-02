@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/portofolio/Header'
+import About from './components/portofolio/About'
 import $ from 'jquery'
 
 class App extends React.Component {
@@ -35,6 +36,7 @@ class App extends React.Component {
     return (
       <>
         <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
       </>
     )
   }
