@@ -5,6 +5,7 @@ import $ from 'jquery'
 import Resume from './components/portofolio/Resume'
 import Portofolio from './components/portofolio/Portofolio'
 import Contact from './components/portofolio/Contact'
+import Footer from './components/portofolio/Footer'
 
 class App extends React.Component {
   constructor(props) {
@@ -43,6 +44,7 @@ class App extends React.Component {
         <Resume data={this.state.resumeData.resume} />
         <Portofolio data={this.state.resumeData.portofolio} />
         <Contact data={this.state.resumeData.main} />
+        <Footer />
       </>
     )
   }
