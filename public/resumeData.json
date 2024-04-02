@@ -1,0 +1,202 @@
+{
+  "main": {
+    "name": "komarudin",
+    "description": "Full Stack Web Developer",
+    "bio": "Junior programmer with more than 2 years of experience using the Laravel framework, where previously I was just a web developer using WordPress, and blogger, and now I am starting my career in PHP, Javascript, and Node JS web programming using frameworks namely Laravel, VueJS, HAPI, and Express. I enjoy learning new things in programming. Currently, I am taking several Web Developer classes, one of which is Dicoding Indonesia. I have expertise in the design, installation, testing, and maintenance of web systems with the Software Development Life Cycle (SDLC). In other fields, I can also operate laser-cutting machines",
+    "github": "https://github.com/komarnetwork",
+    "project": "https://github.com/komarnetwork",
+    "image": "MyProfile.png",
+    "email": "myemail@gmail.com",
+    "phone": "777-777-777",
+    "address": {
+      "street": "789 Oak Lane",
+      "city": "Lakeside",
+      "state": "TX",
+      "zip": "54321"
+    },
+    "links": [
+      {
+        "name": "Home",
+        "hash": "home"
+      },
+      {
+        "name": "About",
+        "hash": "about"
+      },
+      {
+        "name": "Resume",
+        "hash": "resume"
+      },
+      {
+        "name": "Works",
+        "hash": "works"
+      },
+      {
+        "name": "Contact",
+        "hash": "contact"
+      }
+    ],
+    "website": "https://github.com/komarnetwork",
+    "resumedownload": "https://github.com/komarnetwork",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://github.com/komarnetwork",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/komar-udin",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "#",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/komarnetwork",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Universitas Indonesia",
+        "degree": "Bachelor degree of Computer Science",
+        "graduated": "June 2021",
+        "description": "I am joining gemastik competition"
+      },
+      {
+        "school": "SMA 39 Jakarta",
+        "degree": "Science",
+        "graduated": "May 2017",
+        "description": "I am joining computer olympiad"
+      }
+    ],
+    "work": [
+      {
+        "company": "PT. Linimuda",
+        "title": "Software Engineer",
+        "years": "April 2020 - February 2022",
+        "description": "Creating a website and maintenance"
+      },
+      {
+        "company": "My Skill Id",
+        "title": "Frontend Engineer",
+        "years": "February 2022 - present",
+        "description": "Creating a mobile application"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "90%"
+      },
+      {
+        "name": "Python",
+        "level": "70%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "85%"
+      },
+      {
+        "name": "VueJS",
+        "level": "88%"
+      },
+      {
+        "name": "Kotlin",
+        "level": "95%"
+      },
+      {
+        "name": "PHP",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My travel blog for my post-university",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      },
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "https://source.unsplash.com/300x300",
+        "url": "#"
+      }
+    ]
+  }
+}
